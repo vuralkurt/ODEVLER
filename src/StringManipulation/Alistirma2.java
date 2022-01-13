@@ -13,6 +13,7 @@ public class Alistirma2 {
 		String kelime = scan.next();
 
 		int index = cumle.indexOf(kelime);
+		System.out.println(index);
 
 		if (index < 0) {
 			System.out.println("kelime yok");

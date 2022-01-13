@@ -7,6 +7,7 @@ public class Alistirma_6 {
 	public static void main(String[] args) {
 		
 		Scanner scan=new Scanner(System.in);
+		
 		System.out.println("sayi girin");
 		int sayi=scan.nextInt();
 		int sayac=0;

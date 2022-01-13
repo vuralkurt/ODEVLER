@@ -12,9 +12,11 @@ public class Alistirma3 {
 		
 		if(!cumle.contains("@gmail.com")){
 			
-			System.out.println("lutfen gmail adresi giriniz");			
+			System.out.println("lutfen gmail adresi giriniz");		
+			
 		}else if(cumle.endsWith("@gmail.com")){
 			System.out.println("basarili giris");
+			
 		}else System.out.println("bu ifadenin sonda oldugundan eminmisiniz");
 		
 		

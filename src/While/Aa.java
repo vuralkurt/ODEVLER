@@ -13,7 +13,7 @@ public class Aa {
 		 
 		 int sayi=1;
 		 int toplam=0;
-				 int sayac=0;
+		 int sayac=0;
 		 
 		while(sayi!=0) {
 			

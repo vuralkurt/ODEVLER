@@ -7,14 +7,18 @@ public class Alistirma_4 {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("birinci harfi giriniz");
 		String x=scan.next();
+		
 		System.out.println("ikinci harfi giriniz");
 		String y=scan.next();
 		
 		 
 		char i= x.toUpperCase().charAt(0);
-		while ( i<=y.toUpperCase().charAt(0)) {
+		System.out.println("===> "+i+" <===");
+		
+		while ( i <= y.toUpperCase().charAt(0)) {
 						
 			 System.out.print(i+" ");
 			 i++;
